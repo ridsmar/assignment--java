@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Solution {
+
+    public static void main(String[] args) {
+     Scanner x =new Scanner(System.in);
+        int n =x.nextInt();
+        for(int i = 0; i< n;i++){
+            int space = n-i-1;
+            for(int j =0; j<space;j++){
+                System.out.print(" ");
+            }
+            int star = i+1;
+            for(int k =0;k<star;k++){
+                                
+                 System.out.print(k+1);
+                if(k!=star)
+                    System.out.print(" "); 
+            }
+              System.out.println();
+        }
+    }
+}
+
