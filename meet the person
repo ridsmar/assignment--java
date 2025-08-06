@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class Solution{
+    public static void main(String[] args){
+        Scanner x = new Scanner(System.in);
+        int a = x.nextInt();
+        float b = x.nextFloat();
+        String d =x.next();
+        System.out.printf("%s is %d years old and %.2f meters tall.",d,a,b);
+        x.close();
+    }
+}
