@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class Solution{
+    public static void main(String[] args){
+        Scanner x = new Scanner(System.in);
+        int a = x.nextInt(), b = x.nextInt();
+        int c = x.nextInt(), d = x.nextInt();
+        int e = x.nextInt(), f = x.nextInt();
+        int budget = x.nextInt();
+        double bt =  (a*b)+(c*d)+(e*f);
+        double tax = (double) (bt*0.10);
+        double amt = bt + tax;
+        if (amt < budget ){
+        System.out.printf("Total (Before Tax): %.2f\n",bt);
+        System.out.printf("Total (After Tax): %.2f\n",amt);
+        System.out.println("Within Budget");
+        }else{
+            System.out.printf("Total (Before Tax): %.2f\n",bt);
+            System.out.printf("Total (After Tax): %.2f\n",amt);
+            System.out.println("Over Budget");
+        }
+    }
+}
