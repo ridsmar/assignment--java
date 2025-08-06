@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Solution{
+    public static void main(String[] args){
+        Scanner a = new Scanner(System.in);
+        int b = a.nextInt();
+        int c = a.nextInt();
+        int d= b+c;
+        int e= b-c;
+        int f= b*c;
+        int g=b/c;
+        int h=b%c;
+        System.out.println("Sum: "+ d);
+        System.out.println("Difference: "+ e);
+        System.out.println("Product: "+ f);
+        System.out.println("Quotient: "+ g);
+        System.out.println("Remainder: "+ h);
+            
+    }
+    
+}
