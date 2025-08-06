@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class Solution{
+    public static void main(String[] args){
+        Scanner x = new Scanner(System.in);
+        String a = x.next();
+        int b = x.nextInt();
+        int c = x.nextInt();
+        float d = x.nextFloat();
+        System.out.println("My name is "+ a+ ", my Instagram has "+b+" followers, I have posted "+ c+" posts, and I use Instagram for "+ d+ " hours daily.");
+    }
+}
