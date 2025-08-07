@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Solution {
+
+    public static void main(String[] args) {
+      Scanner x = new Scanner(System.in);
+        int n = x.nextInt();
+        if (n < 0) {
+            n = 0 - n;
+        }
+
+        int l = n % 10;
+        int f = n;
+        while (f >= 10) {
+            f = f / 10;
+        }
+
+        int sum = f + l;
+        System.out.println(sum);
+        
+        }
+}
